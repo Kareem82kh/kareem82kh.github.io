@@ -1,3 +1,9 @@
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;  
+}
 .search-container {
     max-width: 600px;
     margin: 50px auto;
