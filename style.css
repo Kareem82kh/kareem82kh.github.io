@@ -1,7 +1,18 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+}
+
 .logo {
     display: block;
-    margin: 0 auto; /* Center horizontally */
     margin-bottom: 20px;
+}
+
+.search-container {
+    flex-grow: 1;
 }
 
 .search-bar {
@@ -36,5 +47,5 @@
     color: black;
     text-align: right;
     margin-top: 1px;
-    margin-right: 2px;  
+    margin-right: 2px;
 }
