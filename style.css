@@ -1,6 +1,40 @@
-a {
+.search-container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.search-bar {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-right: 8px;
+}
+
+.search-button {
+    padding: 8px 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.link {
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    color: blue;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.back-and-others {
     color: black;
-    position: fixed;
-    top: 4px;
-    right: 4px;
+    text-align: right;
+    margin-top: 4px;
+    margin-right: 4px;  
 }
