@@ -1,8 +1,8 @@
 .logo {
     display: inline;
     margin: 0 auto;
-    width: 2px;
-    height: 2px;  
+    width: 200px;
+    height: 200px;  
 }
 .search-bar {
     max-width: auto;
