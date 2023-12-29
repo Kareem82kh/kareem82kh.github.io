@@ -5,8 +5,8 @@
     height: 200px;  
 }
 
-.search-bar {
-    max-width: 300px;
+.search-bar-container {
+    max-width: auto;
     margin-top: 2px;
     margin-right: 2px;
     text-align: center;
