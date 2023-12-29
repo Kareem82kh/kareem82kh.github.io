@@ -4,9 +4,10 @@
     width: 200px;
     height: 200px;  
 }
-.search-bar {
+
+.search-bar-container {
     max-width: 300px;
-    margin: 50px auto;
+    margin: 2px auto; /* Adjust margin as needed */
     text-align: center;
 }
 
