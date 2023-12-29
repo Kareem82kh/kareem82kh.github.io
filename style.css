@@ -46,3 +46,15 @@
     margin-top: 1px;
     margin-right: 2px;  
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
