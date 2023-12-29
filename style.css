@@ -1,27 +1,29 @@
-.logo {
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-    height: 200px;  
+body {
+    margin: 0;
 }
 
-.search-bar-container {
-    max-width: auto;
-    margin-top: 2px;
-    margin-right: 2px;
-    text-align: center;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 2px;
 }
 
 .search-bar {
-    width: 70%;
-    padding: 8px;
-    border: 1px solid gray;
-    border-radius: 20px;
-    margin-right: 8px;
+    grid-column: 1 / span 2;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.search-bar form {
+    margin: 0; /* Remove default form margin */
+}
+
+.search-bar input {
+    margin-right: 8px; /* Adjust as needed */
 }
 
 .search-button {
-    padding: 8px 30px;
+    padding: 8px 20px;
     border: none;
     background-color: blue;
     color: white;
@@ -30,8 +32,6 @@
 }
 
 .link {
-    margin-top: 10px;
-    display: block;
     text-decoration: none;
     color: blue;
 }
@@ -41,8 +41,15 @@
 }
 
 .back-and-others {
-    color: black;
     text-align: right;
-    margin-top: 1px;
-    margin-right: 2px;  
+    margin-top: 2px;
+}
+
+.grid-item {
+    margin-top: 2px;
+}
+
+.grid-item1, .grid-item2, .grid-item3 {
+    display: inline-block;
+    margin-right: 8px; /* Adjust as needed */
 }
