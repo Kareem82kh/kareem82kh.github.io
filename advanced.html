@@ -13,13 +13,27 @@
         <br>
         <a href="file:///Users/kareemkhateeb/web50/lecture1/kareem82kh.github.io/advanced.html">Google Advanced Search</a>
     </div>
-    
     <div class="search-container">
-        <form action="https://www.google.com/search">
-            <input type="text" name="q" class="search-bar" />
+        <form action="https://www.google.com/search" method="GET">
+            <input type="text" name="q" class="search-bar" placeholder="Search" />
+    
+            <div>
+                <label for="all-words">Find pages with all these words:</label>
+                <input type="text" name="all-words" id="all-words" />
+    
+                <label for="exact-phrase">Find pages with this exact word or phrase:</label>
+                <input type="text" name="exact-phrase" id="exact-phrase" />
+    
+                <label for="any-words">Find pages with any of these words:</label>
+                <input type="text" name="any-words" id="any-words" />
+    
+                <label for="none-words">Find pages with none of these words:</label>
+                <input type="text" name="none-words" id="none-words" />
+            </div>
+    
             <input type="submit" value="Google Search" class="search-button" />
         </form>
-        
     </div>
+    
 </body>
 </html>
