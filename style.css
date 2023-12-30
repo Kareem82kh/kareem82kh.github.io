@@ -1,3 +1,5 @@
+/* style.css */
+
 .logo {
     display: block;
     margin: 0 auto; 
@@ -25,6 +27,7 @@
     cursor: pointer;
     display: block;
     margin: 0 auto; /* Center horizontally */
+    margin-top: 5px; /* Add top margin to separate buttons */
 }
 
 .link-container2 {
