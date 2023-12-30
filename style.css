@@ -15,17 +15,24 @@
 .search-button {
     padding: 8px 30px;
     border: none;
-    background-color: blue;
+    background-color: rgb(60, 60, 204);
     color: white;
     border-radius: 20px;
     cursor: pointer;
 }
 
 .link {
+    
     margin-top: 1px;
     display: block;
     text-decoration: none;
     color: blue;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    display: block;
+    clear: both;
 }
 
 .link:hover {
