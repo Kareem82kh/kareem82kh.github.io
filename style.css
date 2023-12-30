@@ -19,6 +19,8 @@
     color: white;
     border-radius: 20px;
     cursor: pointer;
+    position: 20px;
+    bottom: 0;
 }
 .link {
     margin-top: 1px;
